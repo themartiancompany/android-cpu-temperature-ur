@@ -1,0 +1,17 @@
+pkgbase = android-cpu-temperature
+	pkgdesc = Android camera recorder.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-cpu-temperature
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = android-recorder
+	depends = libcrash-bash
+	depends = record-tools
+	source = android-cpu-temperature-cf640d80a3313a40977d91b9dca49f8e28c763e9.zip::https://github.com/themartiancompany/android-cpu-temperature/archive/cf640d80a3313a40977d91b9dca49f8e28c763e9.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 114e133feece476556b5018150f793e6c44fec152280c276dd496942c3095dbb
+
+pkgname = android-cpu-temperature
